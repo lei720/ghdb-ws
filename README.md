@@ -40,7 +40,7 @@ So if it's slow, know that it's a feature and leave the
 code responsible for this as it is.
 
 
-				        xor-function eq null
-					@nighowlconsulting.com
+xor-function = null
+@nighowlconsulting.com
 
 
