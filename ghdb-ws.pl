@@ -9,7 +9,7 @@
 # module
 #
 # License: BSD-2 
-#					                                    by xor-function
+#					      by xor-function
 
 
 use strict;
