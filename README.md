@@ -5,7 +5,7 @@ search terms from a specific expliot-db web page and saves
 them to a file named "results".
 
 The scraper already has a sample of links for different
-catagories, just uncomment the one you wish to activate. 
+categories, just uncomment the one you wish to activate. 
 
 then to start run.
 
