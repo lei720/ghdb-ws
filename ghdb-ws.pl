@@ -37,13 +37,13 @@ my $site;
 # $site = "https://www.exploit-db.com/google-hacking-database/6/";
 
 #----------------=[ Sensitive directories
-# $site, "https://www.exploit-db.com/google-hacking-database/3/";
+# $site = "https://www.exploit-db.com/google-hacking-database/3/";
 
 #----------------=[ Vulnerable Files
-# $site, "https://www.exploit-db.com/google-hacking-database/5/";
+# $site = "https://www.exploit-db.com/google-hacking-database/5/";
 
 #----------------=[ Files containing juicy info
-# $site, "https://www.exploit-db.com/google-hacking-database/8/";
+# $site = "https://www.exploit-db.com/google-hacking-database/8/";
 
 #----------------=[ Various online devices
 # $site = "https://www.exploit-db.com/google-hacking-database/13/";
