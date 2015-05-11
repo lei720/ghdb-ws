@@ -26,7 +26,10 @@ To make installation easy use the cpanminus package
 manager.
 
 You have the option to comment out or add URLs, insure it's
-a full url ex: http://www.somedomain.com/
+a full url.
+```
+ex: http://www.example-domain.com/
+```
 
 If you have problems using LWP::UserAgent with a SOCKS Proxy
 you more than likely need to install the LWP::Protocol::socks
