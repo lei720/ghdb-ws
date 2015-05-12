@@ -5,7 +5,7 @@
 # Dorks search terms from exploit-db and saves them to a file.
 #
 # If you have problems using LWP::UserAgent with a SOCKS Proxy
-# you more that likely need to install the LWP::Protocol::socks
+# you more than likely need to install the LWP::Protocol::socks
 # module
 #
 # License: BSD-2 
@@ -109,7 +109,7 @@ EOF
 
 # Sub fetches html source of the specified website URL for parsing.
 # constructor in subroutine for LWP::UserAgent that sets up a custom user agent 
-# and enables the use of a socks proxy on local host, made to work with TOR.
+# and enables the use of a socks proxy on local host, can be made to work with TOR.
 #
 # ex getdata($url)
 
@@ -203,7 +203,7 @@ sub exlinks {
 
 	# The following code block can be removed since it only applies to the website in question.
 	# if you want to use this as a base for a generic crawler change the regex to common
-	# directories "link paths" you wouldn't want your bot crawling.
+	# directories "link paths" you wouldn't want your bot crawling (blacklist).
 
 	# init final new array
 	my @chkd;
@@ -284,7 +284,7 @@ sub getlinktxt {
 }
 
 
-# Once seed URLS are obtained by initial URL and provided to this sub routine
+# Once seed URLS are obtained by the initial URL and provided to this subroutine
 # as an array it fetches more html source by listing each link in the array and
 # appending all html source for parsing. 
 # 
@@ -303,7 +303,7 @@ sub crawl {
 } 
 
 # Filter array for uniqueness, requires array variable as parameter.
-# Insures no URLS are visited more that once.
+# Insures no URLS are visited more than once.
 
 sub filter_url {
 
@@ -316,7 +316,7 @@ sub filter_url {
 
 
 # Requires URL of website to be crawled
-# performs thorough scanning to 
+# returns array of URLs that passed filters 
 
 sub harvest_urls {  
 
