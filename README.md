@@ -7,7 +7,21 @@ them to a file named "results".
 The scraper already has a sample of links for different
 categories, just uncomment the one you wish to activate. 
 
-then to start run.
+When uncommenting one of the URLs you will only receive the 
+most recently archived Google dorks. To get everything from 
+a specific category you need to understand the link 
+structure. 
+
+Each category page has a query at the of the specific 
+category “?pg=1” meaning page one.
+
+The query being “?pg” and the value is equal to the page 
+number “=1 or =2 or =3”
+
+Create a list of the desired URLs to download the entire
+dorks from a category.
+
+To start, run.
 
 ```
 user@blah:~# ./ghdb-ws.pl
